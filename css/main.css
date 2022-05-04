@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+.logoSpacing {
+	display: flex;
+	background-color: black;
+	width: 100%;
+	justify-content: center;
+	border-top: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.logoSpacing img {
+	height: 100px;
+	background-color: black;
+	border-style: solid;
+	border-top-width: 1.5em;
+	border-bottom-width: 1.5em;
+	position: relative;
+}
+
+.logoSpacing a {
+	color: transparent;
+}
+
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.car1 {
+	width: 33%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	border-color: lightgray;
+	border-style: solid;
+	border-radius: 20px;	
+	margin-left: auto;
+	margin-right: auto;
+	flex-basis: 20%;
+}
+
+.car1 img{
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.carTitle {
+	font-family: Tahoma;
+	font-weight: 900;
+	text-align: center;
+}
+
+.car1 h4 {
+	text-align: center;
+	font-family: Arial;
+	line-height: 3px;
+}
+
+.car1 ol {
+	list-style: disc;
+	text-align: start;
+	padding-left: 17px;
+}
+.details {
+	background-color: black;
+	color: white;
+	font-family: Tahoma;
+	font-weight: 600;
+	border: none;
+	border-radius: 15px;
+	font-size: 18px;
+	padding: 5px 8px;
+	margin-left: (73%)-(8/2);
+}
+
+
+.car1 a :hover {
+	background-color: rgb(58, 58, 58);
+}
+
+.listings {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
